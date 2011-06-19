@@ -10,3 +10,5 @@ rvm:
 gemfile:
   - Gemfile
   - gemfiles/eventmachine-pre
+notifications:
+  disabled: true
