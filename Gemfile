@@ -32,6 +32,7 @@ group :development do
 end
 
 group :test do
+  gem "cool.io", :platform => :ruby
   gem "rspec", ">=2.0.0"
   gem "autotest"
   custom_gem "evented-spec", :git => "git://github.com/ruby-amqp/evented-spec.git", :branch => "master"
